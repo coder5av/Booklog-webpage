@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Book Review</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation-bar">
+        <h1>Book Log</h1>
+
+    </div>
+    <div class="container">
+        <div class="book-conatiner">
+            <h1>Little Women</h1>
+            <h2>Louise May Alcott</h2>
+            <p>I am not afraid of storms, for I am learning how to sail my ship.</p>
+            <button onclick="deletebook(event)">Delete</button>
+
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form> 
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-discription-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+    <button class="add-button">+</button>
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff8dc;
+}
+
+.navigation-bar {
+  background-color: #6a2c70;
+  padding: 10px;
+  color: #f08a5d;
+}
+.navigation-bar h1 {
+  user-select: none;
+}
+.container {
+  padding: 10px;
+}
+.book-conatiner {
+  padding: 15px;
+  width: 25%;
+  background-color: #f08a5d;
+  border-radius: 10px;
+  color: #fff8dc;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.book-conatiner h2 {
+  color: #6a2c70;
+}
+
+.book-conatiner button {
+  background-color: transparent;
+  border: 2px solid #6a2c70;
+  color: #6a2c70;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  z-index: 99;
+}
+.book-conatiner button:hover {
+  background-color: #6a2c70;
+  color: #f08a5d;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #6a2c70;
+  color: #f08a5d;
+  border: none;
+  border-radius: 100%;
+  padding: 20px 30px;
+  font-size: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.add-button:hover {
+  background-color: #f08a5d;
+  color: #6a2c70;
+  cursor: pointer;
+}
+.popup-overlay {
+  background-color: #f08a5d;
+  opacity: 0.8;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  display: none;
+}
+.popup-box {
+  background-color: #6a2c70;
+  color: #f08a5d;
+  width: 40%;
+  padding: 40px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 2;
+  display: none;
+}
+.popup-box input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border-bottom: solid #f08a5d 2px;
+  color: #fff8dc;
+}
+.popup-box textarea {
+  background: transparent;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border: solid #f08a5d 2px;
+  color: #fff8dc;
+}
+
+.popup-box input::placeholder {
+  color: #f08a5d;
+}
+.popup-box textarea::placeholder {
+  color: #f08a5d;
+}
+.popup-box button {
+  background-color: #f08a5d;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 5px;
+  color: #fff8dc;
+  border-radius: 10px;
+}
+.popup-box button:hover {
+  color: #f08a5d;
+  background-color: #fff8dc;
+  cursor: pointer;
+}
+
+.popup-box input:focus {
+  outline: none;
+}
+.popup-box textarea:focus {
+  outline: none;
+}
